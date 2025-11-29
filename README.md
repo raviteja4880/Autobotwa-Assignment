@@ -21,28 +21,6 @@ UI for major sections was initially generated using **Vercel v0**, then refined 
 
 ---
 
-## Project Structure
-/ (root)
-├─ app/
-│ ├─ layout.jsx // Root layout
-│ ├─ page.jsx // Main page / homepage
-│ └─ globals.css // Global styles + Tailwind imports
-├─ components/
-│ ├─ Header.jsx
-│ ├─ Hero.jsx
-│ ├─ Features.jsx
-│ ├─ Highlights.jsx
-│ ├─ Contact.jsx
-│ └─ Footer.jsx
-├─ public/ // Public assets (images, favicon etc.) — optional
-├─ package.json
-├─ tailwind.config.js
-├─ postcss.config.js
-├─ next.config.mjs
-└─ README.md
-
----
-
 ## Features & Requirements — Satisfied
 
 | Requirement | Status |
