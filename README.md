@@ -15,8 +15,8 @@ This project showcases a modern coffee brand with a fully responsive layout and 
 ---
 
 ## Live Demo
-- **Live Link:** [Your Vercel Deployment URL]
-- **Repository:** [Your GitHub Repo Link]
+- **Live Link:** [[text](https://autobotwa-assignment-seven.vercel.app/)]
+- **Repository:** [[text](https://github.com/raviteja4880/Autobotwa-Assignment)]
 
 ---
 
