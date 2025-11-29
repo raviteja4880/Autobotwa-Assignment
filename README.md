@@ -1,4 +1,4 @@
-# Araku Coffee — Responsive Landing Page (Next.js + Tailwind, JS)
+# Araku Coffee — Landing Page (Next.js + Tailwind, JS)
 
 A clean and professional landing page for **Araku Coffee**, built using **Next.js**, **Tailwind CSS**, and **Vercel v0** for AI-assisted UI generation.  
 This project showcases a modern coffee brand with a fully responsive layout and cohesive design.
@@ -6,9 +6,9 @@ This project showcases a modern coffee brand with a fully responsive layout and 
 ---
 
 ## Tech Stack
-- **Framework:** Next.js 14 (App Router)
+- **Framework:** Next.js 14
 - **Styling:** Tailwind CSS 3
-- **Language:** React (JavaScript, no TypeScript)
+- **Language:** React
 - **UI Generation:** Vercel v0
 - **Deployment:** Vercel
 
