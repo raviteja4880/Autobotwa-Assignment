@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0f0d0b;
+}
+
+html, body {
+  background: var(--bg);
+  color: #faf7f5;
+  scroll-behavior: smooth;
+}
+
+.container {
+  @apply mx-auto px-4;
+}
+
+.section {
+  @apply py-16 md:py-24;
+}
