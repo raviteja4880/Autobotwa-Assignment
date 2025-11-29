@@ -1,75 +1,61 @@
-# Araku Coffee — Landing Page (Next.js + Tailwind, JS)
+# Araku Coffee — Responsive Landing Page (Next.js 14 + Tailwind CSS)
 
-A clean and professional landing page for **Araku Coffee**, built using **Next.js**, **Tailwind CSS**, and **Vercel v0** for AI-assisted UI generation.  
-This project showcases a modern coffee brand with a fully responsive layout and cohesive design.
+A clean, responsive landing page for **Araku Coffee**, built using **Next.js (App Router)** and **Tailwind CSS**.  
+UI for major sections was initially generated using **Vercel v0**, then refined manually for consistency, responsiveness, and accessibility.
 
 ---
 
 ## Tech Stack
-- **Framework:** Next.js 14
-- **Styling:** Tailwind CSS 3
-- **Language:** React
-- **UI Generation:** Vercel v0
-- **Deployment:** Vercel
+- **Framework:** Next.js 14 (App Router)  
+- **Language:** React (JavaScript / JSX)  
+- **Styling:** Tailwind CSS 3.x  
+- **Icons:** lucide-react  
+- **UI Generation:** Vercel v0 (initial layout prototypes)  
+- **Deployment:** Vercel  
 
 ---
 
 ## Live Demo
-- **Live Link:** [[text](https://autobotwa-assignment-seven.vercel.app/)]
-- **Repository:** [[text](https://github.com/raviteja4880/Autobotwa-Assignment)]
+- **Production URL:** [autobotwa-assignment-kappa.vercel.app](https://autobotwa-assignment-kappa.vercel.app/)  
+- **Source Repository:** [github.com/raviteja4880/Autobotwa-Assignment](https://github.com/raviteja4880/Autobotwa-Assignment)  
 
 ---
 
 ## Project Structure
-app/
-layout.jsx
-page.jsx
-globals.css
-components/
-Header.jsx
-Hero.jsx
-Features.jsx
-Highlights.jsx
-Contact.jsx
-Footer.jsx
-tailwind.config.js
-postcss.config.js
-jsconfig.json
-package.json
-README.md
+/ (root)
+├─ app/
+│ ├─ layout.jsx // Root layout
+│ ├─ page.jsx // Main page / homepage
+│ └─ globals.css // Global styles + Tailwind imports
+├─ components/
+│ ├─ Header.jsx
+│ ├─ Hero.jsx
+│ ├─ Features.jsx
+│ ├─ Highlights.jsx
+│ ├─ Contact.jsx
+│ └─ Footer.jsx
+├─ public/ // Public assets (images, favicon etc.) — optional
+├─ package.json
+├─ tailwind.config.js
+├─ postcss.config.js
+├─ next.config.mjs
+└─ README.md
 
 ---
 
-## Meets Assignment Requirements
-- **Hero Section** – heading, subtext, CTA button  
-- **Features Section** – 3 key highlights with icons  
-- **Product Highlights** – detailed info cards  
-- **Contact Section** – responsive form layout  
-- **Footer** – professional brand footer with links & social icons  
-- **Responsive Design** – mobile, tablet, and desktop  
-- **Clean Folder Structure**  
-- **Vercel v0 used for UI generation**
+## Features & Requirements — Satisfied
 
----
-
-## Use of Vercel v0 (AI UI Generation)
-
-During the development of **Araku Coffee**, **Vercel v0** was used for **UI generation and layout ideation**.  
-The following sections were prototyped with Vercel v0 and later refined manually for better responsiveness, color consistency, and code clarity:
-
-- **Hero Section:** Split layout (text + image) and CTA structure  
-- **Features Section:** 3-card grid layout with balanced spacing  
-- **Product Highlights Section:** uniform info cards with icon integration  
-- **Contact Section:** clean input form hierarchy and spacing  
-- **Footer Section:** navigation grouping and brand details layout  
-
-After generation, manual improvements were made to:
-- Ensure consistent **black & brown coffee brand theme**  
-- Optimize **accessibility and responsive behavior**  
-- Maintain clean and production-ready **React JSX code**
-
-> This fulfills the assignment requirement:  
-> **"Vercel v0 (compulsory usage for UI generation)"**
+| Requirement | Status |
+|-------------|--------|
+| Hero Section (heading, subtext, CTA) | ✔️ |
+| Features Section (≥ 3 items) | ✔️ |
+| Product Highlights Section | ✔️ (Highlights section) |
+| Contact Section (instead of pricing) | ✔️ |
+| Footer | ✔️ |
+| Clean folder structure | ✔️ |
+| Next.js + Tailwind CSS tech stack | ✔️ |
+| UI generated with Vercel v0 (and refined) | ✔️ |
+| Production-ready & deployable on Vercel | ✔️ |
 
 ---
 
